@@ -1,5 +1,5 @@
 <!-- A. Deskripsi Use Case Ajukan KRS -->
-### A. Deskripsi Use Case Ajukan KRS
+## A. Deskripsi Use Case Ajukan KRS
 | Elemen           | Deskripsi                                                                                                        |
 |------------------|------------------------------------------------------------------------------------------------------------------|
 | ID               | SIA-UC01                                                                                                         |
