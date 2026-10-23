@@ -1,6 +1,5 @@
 <!-- A. Deskripsi Use Case Ajukan KRS -->
 ### A. Deskripsi Use Case Ajukan KRS
-
 | Elemen           | Deskripsi                                                                                                        |
 |------------------|------------------------------------------------------------------------------------------------------------------|
 | ID               | SIA-UC01                                                                                                         |
@@ -13,6 +12,7 @@
 | Pascakondisi     | Pengajuan berhasil tersimpan dengan status menunggu keputusan atau pengajuan belum berhasil jika validasi gagal. |
 
 <!-- B. Deskripsi Use Case Validasi KRS -->
+## B. Deskripsi Use Case Validasi KRS
 | Elemen           | Deskripsi                                                                                                        |
 |------------------|------------------------------------------------------------------------------------------------------------------|
 | ID               | SIA-UC02                                                                                                         |
@@ -25,6 +25,7 @@
 | Pascakondisi     | Validasi berhasil sehingga pengajuan dapat dilanjutkan, atau validasi gagal sehingga pengajuan perlu diperbaiki. |
 
 <!-- C. Deskripsi Use Case Unduh Bukti Pengajuan KRS -->
+## Deskripsi Use Case Unduh Bukti Pengajuan KRS
 | Elemen           | Deskripsi                                                                                                        |
 |------------------|------------------------------------------------------------------------------------------------------------------|
 | ID               | SIA-UC03                                                                                                         |
@@ -37,6 +38,7 @@
 | Pascakondisi     | Bukti pengajuan berhasil diunduh atau mahasiswa dapat mencoba kembali jika pengunduhan gagal.                    |
 
 <!-- D. Deskripsi Use Case Proses Keputusan KRS -->
+## D. Deskripsi Use Case Proses Keputusan KRS
 | Elemen           | Deskripsi                                                                                                        |
 |------------------|------------------------------------------------------------------------------------------------------------------|
 | ID               | SIA-UC04                                                                                                         |
@@ -52,6 +54,8 @@
 
 
 <!-- Uji Konsistensi -->
+## Uji Konsistensi
+
 ### a. Validasi Berhasil dan Mahasiswa Tidak Mengunduh Bukti
 **Hasil:** Konsisten.
 **Penjelasan:** Sistem berhasil memvalidasi pengajuan KRS dan menyimpan pengajuan dengan status menunggu keputusan. Mahasiswa tidak memilih untuk mengunduh bukti pengajuan. Hal ini sesuai dengan diagram karena use case Unduh Bukti Pengajuan KRS menggunakan relasi `<<extend>>`, sehingga pengunduhan bersifat opsional. Deskripsi use case juga menunjukkan bahwa pengajuan KRS tetap berhasil meskipun bukti tidak diunduh.
