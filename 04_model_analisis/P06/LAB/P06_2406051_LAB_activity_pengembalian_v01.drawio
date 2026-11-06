@@ -1,0 +1,106 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="aemaUiszt7pk3K9wXSeY">
+    <mxGraphModel dx="1422" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-1" parent="1" style="swimlane;horizontal=1;startSize=34;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#666666;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="1040" width="280" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-2" parent="PR1VFD9_XwAt7ya01o7C-1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="128" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-3" parent="1" style="swimlane;horizontal=1;startSize=34;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#666666;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" value="Sistem" vertex="1">
+          <mxGeometry height="1040" width="280" x="290" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-4" parent="PR1VFD9_XwAt7ya01o7C-3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="Kondisi peralatan&lt;br&gt;baik dan lengkap?" vertex="1">
+          <mxGeometry height="75" width="180" x="45" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-5" parent="PR1VFD9_XwAt7ya01o7C-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#d5e8d4;strokeColor=#555555;fontSize=12;align=center;verticalAlign=middle;spacing=6;" value="Perbarui status peralatan&lt;br&gt;menjadi tersedia" vertex="1">
+          <mxGeometry height="60" width="160" x="55" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-6" edge="1" parent="PR1VFD9_XwAt7ya01o7C-3" source="PR1VFD9_XwAt7ya01o7C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" target="PR1VFD9_XwAt7ya01o7C-5" value="[baik dan lengkap]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-7" parent="PR1VFD9_XwAt7ya01o7C-3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="110" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-8" edge="1" parent="PR1VFD9_XwAt7ya01o7C-3" source="PR1VFD9_XwAt7ya01o7C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" target="PR1VFD9_XwAt7ya01o7C-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-9" parent="PR1VFD9_XwAt7ya01o7C-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#555555;fontSize=12;align=center;verticalAlign=middle;spacing=6;" value="Menutup transaksi&lt;br&gt;peminjaman" vertex="1">
+          <mxGeometry height="55" width="160" x="55" y="868" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-10" edge="1" parent="PR1VFD9_XwAt7ya01o7C-3" source="PR1VFD9_XwAt7ya01o7C-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" target="PR1VFD9_XwAt7ya01o7C-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-11" edge="1" parent="PR1VFD9_XwAt7ya01o7C-3" source="PR1VFD9_XwAt7ya01o7C-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="981" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-12" parent="PR1VFD9_XwAt7ya01o7C-3" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="120" y="981" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-13" parent="1" style="swimlane;horizontal=1;startSize=34;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#666666;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" value="Petugas Laboratorium" vertex="1">
+          <mxGeometry height="1040" width="490" x="570" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-14" parent="PR1VFD9_XwAt7ya01o7C-13" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#555555;fontSize=12;align=center;verticalAlign=middle;spacing=6;" value="Catat Pengembalian Peralatan&lt;br&gt;(LAB-UC11)" vertex="1">
+          <mxGeometry height="60" width="190" x="135" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-15" parent="PR1VFD9_XwAt7ya01o7C-13" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#555555;fontSize=12;align=center;verticalAlign=middle;spacing=6;" value="Periksa Kondisi Peralatan&lt;br&gt;(LAB-UC12)" vertex="1">
+          <mxGeometry height="75" width="160" x="40" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-16" parent="PR1VFD9_XwAt7ya01o7C-13" style="rounded=0;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="12" width="440" x="10" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-17" edge="1" parent="PR1VFD9_XwAt7ya01o7C-13" source="PR1VFD9_XwAt7ya01o7C-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" target="PR1VFD9_XwAt7ya01o7C-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-18" edge="1" parent="PR1VFD9_XwAt7ya01o7C-13" source="PR1VFD9_XwAt7ya01o7C-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="PR1VFD9_XwAt7ya01o7C-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-19" parent="PR1VFD9_XwAt7ya01o7C-13" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fontSize=12;align=center;verticalAlign=middle;spacing=6;" value="Periksa kelengkapan&lt;br&gt;aksesori peralatan&lt;br&gt;&lt;i&gt;(unsur proses baru)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="75" width="180" x="250" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-20" edge="1" parent="PR1VFD9_XwAt7ya01o7C-13" source="PR1VFD9_XwAt7ya01o7C-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="PR1VFD9_XwAt7ya01o7C-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-21" parent="PR1VFD9_XwAt7ya01o7C-13" style="rounded=0;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="12" width="670" x="-220" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-22" edge="1" parent="PR1VFD9_XwAt7ya01o7C-13" source="PR1VFD9_XwAt7ya01o7C-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" value="">
+          <mxGeometry relative="1" x="-0.0073" as="geometry">
+            <mxPoint x="120" y="480.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-23" edge="1" parent="PR1VFD9_XwAt7ya01o7C-13" source="PR1VFD9_XwAt7ya01o7C-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" value="">
+          <mxGeometry relative="1" x="-0.1047" as="geometry">
+            <mxPoint x="339.75" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-24" parent="PR1VFD9_XwAt7ya01o7C-13" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#f8cecc;strokeColor=#555555;fontSize=12;align=center;verticalAlign=middle;spacing=6;" value="Catat kerusakan dan&lt;br&gt;jadwalkan perbaikan" vertex="1">
+          <mxGeometry height="60" width="210" x="140" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#555555;fontSize=12;align=center;verticalAlign=middle;spacing=6;" value="Menyerahkan peralatan&lt;br&gt;yang dipinjam" vertex="1">
+          <mxGeometry height="55" width="190" x="55" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-26" edge="1" parent="1" source="PR1VFD9_XwAt7ya01o7C-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PR1VFD9_XwAt7ya01o7C-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-27" edge="1" parent="1" source="PR1VFD9_XwAt7ya01o7C-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" target="PR1VFD9_XwAt7ya01o7C-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-28" edge="1" parent="1" source="PR1VFD9_XwAt7ya01o7C-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.112;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="PR1VFD9_XwAt7ya01o7C-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-29" edge="1" parent="1" source="PR1VFD9_XwAt7ya01o7C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;" target="PR1VFD9_XwAt7ya01o7C-24" value="[rusak atau tidak lengkap]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1VFD9_XwAt7ya01o7C-30" edge="1" parent="1" source="PR1VFD9_XwAt7ya01o7C-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PR1VFD9_XwAt7ya01o7C-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

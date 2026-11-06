@@ -12,4 +12,4 @@
 <a href="https://instagram.com/Mlshaayu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Mlshaayu" height="30" width="40" /></a>
 </p>
 
-# Pertemuan 5 - SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN 
+# Pertemuan 6 - ACTIVITY DIAGRAM: DARI SKENARIO KE ALUR AKTIVITAS  
